@@ -23,7 +23,7 @@ def fetch_company_news(company, language="en"):
         "q": company,
         "language": language,
         "sortBy": "publishedAt",
-        "pageSize": 10,
+        "pageSize": 5,
         "apiKey": NEWS_API_KEY
     }
 
